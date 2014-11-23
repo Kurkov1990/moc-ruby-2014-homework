@@ -34,4 +34,24 @@ class Personnel
   
   def service_db
       puts "Обслуговування БД"
+  end
+  
+  def contract
+      puts "Укладення договору"
+  end
+  
+  def cancel
+      puts "Розірвання договору"
+  end
+end
+
+#Клас Запчастина
+class Detail
+  
+   def initialize(appellation, code_detail, price, amount) 
+      @appellation = appellation
+      @code_detail = code_detail
+      @price = price
+      @amount = amount
+  end
   
