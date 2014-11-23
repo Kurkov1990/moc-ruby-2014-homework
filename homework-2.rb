@@ -73,7 +73,7 @@ class Detail
   end
 end
 
-#Клас Послуга
+#Клас Авто
 class Сar
   
   def initialize(code_car, number, model, year) 
