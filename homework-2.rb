@@ -20,4 +20,18 @@ class Client
 end
 
 #Клас Персонал
-class Client
+class Personnel
+
+  def initialize(surname, code_employee, зрщту) 
+      @surname = surname
+      @passport_number = code_employee
+      @phone = phone
+  end
+  
+  def service_client
+      puts "Обслуговування клієнта"
+  end
+  
+  def service_db
+      puts "Обслуговування БД"
+  
