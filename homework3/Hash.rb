@@ -19,3 +19,4 @@ puts h.keys           #-> ["a", "b"]
 h = Hash.new { |hash, key| hash[key] = "Go Fish: #{key}" }
 puts h["c"]           #-> "Go Fish: c"
 puts h["d"]           #-> "Go Fish: d"
+puts h.keys           #-> ["c", "d"]
