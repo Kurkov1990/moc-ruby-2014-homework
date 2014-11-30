@@ -9,6 +9,12 @@ puts s2.subset? s1
 puts "==================================================================="
 puts
 
+files = Set.new(Dir.glob("*.rb"))
+hash = files.classify { |f| File.mtime(f).day }
+p hash
+puts "==================================================================="
+puts
+
 s = Set.new(["space", "stars"])
 # Add two more elements.
 s.add("sun")
